@@ -1,0 +1,15 @@
+$theme-colors: (
+  "primary": #022895,
+  "danger": #738203 ,
+  "success": #E7194B ,
+  "warning":#19BFE7 ,
+);
+
+// Bootstrap and its default variables
+@import "~bootstrap/scss/bootstrap";
+
+body
+{
+  padding-top: 5rem;  // 1rem = 16 then 5*16=80
+  
+}
